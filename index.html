@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Namaste React</title>
+</head>
+<body>
+    <div id="root">
+        <!-- akshay will be replaced by render ,react took over div-->
+        <h1>akshay</h1>
+    </div>
+    <!-- <script>
+        const heading = document.createElement("h1")
+        heading.innerHTML="Hello World from js";
+        const root = document.getElementById("root")
+        root.appendChild(heading)
+    </script> -->
+    <!-- react crossorigin should be before app.js because sequence matters -->
+    <script 
+        crossorigin src="https://unpkg.com/react@18/umd/react.development.js">
+    </script>
+    <script 
+        crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+    </script>
+    <script src="App.js"></script>
+</body>
+</html>
+<!-- //CDN : React
+//content delivery network (react library is hosted)
+//**read more , cross origion ,SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,
+REACTDOM LINK ->IT CONECTS TO THE DOM
+ -->
+
